@@ -520,7 +520,7 @@ let loop = GameLoop({
                 ctx.font = "bold 48px Verdana";
                 ctx.textAlign = "center";
                 ctx.fillStyle = "#FFFFFF";
-                ctx.fillText(`You score: ${score}`, Math.floor(canvas.width / 2), 180);
+                ctx.fillText(`You score: ${Math.floor(score / 10)}`, Math.floor(canvas.width / 2), 180);
                 back.render();
                 break;
         }
