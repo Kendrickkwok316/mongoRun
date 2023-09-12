@@ -1,0 +1,1 @@
+{"type":"module","scripts":{"build":".\\node_modules\\.bin\\esbuild src\\game.js --bundle --minify --format=iife --outfile=game.bundle.js"},"dependencies":{"esbuild":"^0.15.5","kontra":"^8.0.0"}}
